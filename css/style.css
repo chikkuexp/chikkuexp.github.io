@@ -1,1 +1,22 @@
-li {display: inline}
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+header {
+    position: fixed;
+  width: 100%;
+  min-height: 60px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 1;
+  border-bottom: 1px solid gainsboro;
+  padding-left: 1rem;
+  background: white;
+}
+
+li {
+    list-style: none;
+    display: inline;
+}
